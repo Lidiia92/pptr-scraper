@@ -1,23 +1,24 @@
 {
-  "name": "pptr-scraper",
-  "version": "1.0.0",
-  "description": "Web Scraping with Puppeteer ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Lidiia92/pptr-scraper.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Lidiia92/pptr-scraper/issues"
-  },
-  "homepage": "https://github.com/Lidiia92/pptr-scraper#readme",
-  "dependencies": {
-    "prettier": "^2.0.5",
-    "puppeteer": "^4.0.1"
-  }
+	"name": "pptr-scraper",
+	"version": "1.0.0",
+	"description": "Web Scraping with Puppeteer ",
+	"main": "index.js",
+	"scripts": {
+		"scraper": "node scraper.js",
+		"scraper:3": "for run in {1..3}; do node scraper.js; done"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Lidiia92/pptr-scraper.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Lidiia92/pptr-scraper/issues"
+	},
+	"homepage": "https://github.com/Lidiia92/pptr-scraper#readme",
+	"dependencies": {
+		"prettier": "^2.0.5",
+		"puppeteer": "^4.0.1"
+	}
 }
