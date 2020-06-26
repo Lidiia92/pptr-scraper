@@ -19,6 +19,7 @@
 	"homepage": "https://github.com/Lidiia92/pptr-scraper#readme",
 	"dependencies": {
 		"prettier": "^2.0.5",
-		"puppeteer": "^4.0.1"
+		"puppeteer": "^4.0.1",
+		"random-useragent": "^0.3.1"
 	}
 }
